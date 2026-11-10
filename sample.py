@@ -310,9 +310,9 @@ hr {
 
 
 # LOAD MODEL, PREPROCESSOR AND DATASET
-model = joblib.load("model.joblib")
-preprocessor = joblib.load("preprocessor.joblib")
-df = pd.read_csv("clean_car_data.csv")
+model = joblib.load("fake_job_model.joblib")
+preprocessor = joblib.load("tfidf.joblib")
+df = pd.read_csv("fake_job_postings.csv")
 # MAIN TITLE
 st.title("🚗 CAR PRICE PREDICTION")
 st.write(
